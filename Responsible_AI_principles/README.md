@@ -76,4 +76,37 @@ Explainability is the ability of an AI system to clearly show how and why it mad
 
 ---
 
+## 🔐 AI Security: Protecting Models from Threats
+
+AI systems face a wide range of security risks — from data tampering to model theft. Because AI systems often operate in complex, automated environments, it’s difficult to predict all potential vulnerabilities in advance.
+
+### ⚠️ Key Security Challenges
+
+- **Unpredictable behavior:** As AI systems grow more complex, their outputs and downstream effects can be harder to forecast, especially under novel or adversarial inputs.
+- **Balancing flexibility and safety:** Systems need to be adaptable to new data and trends — but this adaptability can introduce new security gaps if not properly managed.
+- **Security vs. performance trade-offs:** Hardening a system against attacks may reduce model efficiency, requiring smart design choices.
+
+### 🧨 Common Types of AI Attacks
+
+1. **Evasion Attacks**  
+   Attackers subtly alter inputs (e.g., changing a few pixels in an image) to trick the model into making incorrect predictions without raising suspicion.
+2. **Poisoning Attacks**  
+   Malicious data is inserted into the training set. When the model learns from this data, its performance drops or it becomes vulnerable to targeted exploitation.
+3. **Model Extraction Attacks**  
+   Attackers repeatedly query the model to reverse-engineer its internal structure or replicate its behavior — effectively stealing the model.
+4. **Inference Attacks**  
+   Attackers use the model to deduce private or sensitive information from the training data, such as personally identifiable information (PII).
+
+### 🛡️ Mitigating These Risks
+
+To protect AI systems, organizations should:
+- Incorporate robust data validation and input sanitization
+- Monitor for unusual patterns in model queries
+- Regularly retrain and test models against adversarial scenarios
+- Encrypt sensitive models and limit public exposure to APIs
+- Establish strong access control and logging mechanisms
+
+---
+
+
 
