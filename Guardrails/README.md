@@ -51,3 +51,18 @@ Technical guardrails are built-in measures, controls, and restrictions within th
 
 ---
 
+## ⚙️ Difference Between Technical and Policy-Driven Guardrails
+
+**Technical Guardrails**  
+- Rely on technical measures and tools, including external libraries and technical controls, to prevent AI systems from deviating into unsafe or unintended behaviors.
+- Focus on practical implementation: e.g., bias detection libraries, PII redaction tools, content moderation APIs, or model explainability frameworks.
+- Strengthen the system’s transparency, fairness, and security through built-in technical layers.
+
+**Policy-Driven Guardrails**  
+- Depend on principles, standards, and governance frameworks (like the NIST AI RMF) to ensure AI is developed and deployed responsibly.
+- Cover organizational policies, ethical principles, risk management plans, and legal compliance.
+- Define who is accountable, how oversight works, and how to handle incidents, reviews, and approvals.
+
+In short, **technical guardrails** are embedded into the AI system through software and tools, while **policy-driven guardrails** guide people and processes to use, monitor, and govern AI responsibly.
+
+
