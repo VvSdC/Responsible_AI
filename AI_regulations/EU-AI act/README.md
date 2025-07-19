@@ -57,3 +57,13 @@ All high-risk AI systems must undergo strict conformity assessments before being
 
 ---
 
+#### ✅ **Minimal or No Risk**
+
+AI systems with minimal or no risk pose little threat to people’s rights or safety. For these systems:
+
+- Providers must follow basic transparency requirements so users can make informed choices.
+- Users should always know when they are interacting with an AI system.
+- This includes AI that generates or manipulates content — for example, visual, audio, or video outputs like deepfakes.
+- Users must be clearly notified that the content they see or hear was produced or modified by AI so they can decide whether to trust, share, or act on it.
+
+These lighter obligations aim to encourage innovation while protecting transparency and user awareness.
