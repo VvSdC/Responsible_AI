@@ -73,3 +73,23 @@ There are many tools available to help find and fix bias in data and machine lea
    - It includes:
      - Fairness metrics like disparate impact, equal opportunity, and Theil index.
      - Methods to fix bias, like re-weighting the data or adjusting the model.
+
+---
+
+### Fairness Metrics
+
+Fairness metrics help measure and check if a machine learning model is treating different groups fairly.
+
+1. **Disparate Impact:**  
+   - This measures the difference in the chances of getting a positive result (like being approved for a job or loan) between different groups.  
+   - If the value is below 1, it may mean one group is being treated unfairly.  
+   - *Example:* If 80% of one group gets approved but only 50% of another group does, this shows possible bias.
+
+2. **Equalized Odds:**  
+   - This checks if the model makes similar mistakes for different groups.  
+   - It looks at false positives (wrong positive predictions) and false negatives (wrong negative predictions).  
+   - If the mistake rates are very different between groups, that means there could be bias.
+
+3. **Average Odds Difference:**  
+   - This measures the average gap in false positive and false negative rates between groups.  
+   - A higher value means there may be unfair differences in how the model predicts for each group.
